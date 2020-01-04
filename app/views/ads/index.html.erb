@@ -1,0 +1,19 @@
+<h1>Listing Articles</h1>
+ 
+<%= link_to 'New ad', new_ad_path %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+  </tr>
+ 
+  <% @ads.each do |ad| %>
+    <tr>
+      <td><%= ad.title %></td>
+      <td><%= ad.description %></td>
+      <td><%= link_to 'Show', ad_path(ad) %></td>
+    </tr>
+  <% end %>
+</table>

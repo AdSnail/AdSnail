@@ -1,0 +1,16 @@
+<h1>
+	<%= @ad.title %>
+</h1>
+
+<p>
+	<strong>Description:</strong>
+	<%= @ad.description %>
+</p>
+
+<p>
+<%= link_to 'Edit', edit_ad_path(@ad) %> |
+<%= link_to 'Destroy', ad_path(@ad),
+              method: :delete,
+              data: { confirm: 'Are you sure?' } %>
+</p>
+<%= link_to 'Back', ads_path %>
