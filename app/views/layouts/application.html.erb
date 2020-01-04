@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <%# basic %>
+    <!--
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    -->
+    <%# le wagon %>
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/flashes' %>
     <%= yield %>
   </body>
 </html>

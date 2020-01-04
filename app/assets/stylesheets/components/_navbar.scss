@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background: rgb(30, 177, 152);
+    list-style: none;
+    list-style-type: none;
+}
+
+.navbar .navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar .navbar-brand img {
+    width: 100px;
+}
+
+.avatar {
+    width: 40px;
+}
