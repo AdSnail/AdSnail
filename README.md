@@ -1,24 +1,18 @@
-# README
+# AdSnail
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Your place to promote any kinds of advertisements.
+Add a entry for your personal product and then browser other peoples ads to boost your own.
 
-Things you may want to cover:
+ruby 2.7.0 Rails 6.0.2.1
 
-* Ruby version
+## Setup
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+apt install ruby
+gem install rails
+git clone https://github.com/AdSnail/AdSnail
+cd AdSnail
+bundle install
+rake db:migrate
+rails s
+```
