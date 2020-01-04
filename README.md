@@ -13,6 +13,7 @@ gem install rails
 git clone https://github.com/AdSnail/AdSnail
 cd AdSnail
 bundle install
+yarn install --check-files
 rake db:migrate
 rails s
 ```
